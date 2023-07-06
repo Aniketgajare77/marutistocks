@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maruti stock prediction</title>
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+    
+        form {
+            text-align: center;
+        }
+    
+        input[type="submit"] {
+            background-color:blueviolet;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1> MARUTI STOCK PRICE PREDICTION</h1>
+    <form action="/inputs" method="post">
+        Enter last price of stocks <input type="text" name="Last">
+        <br>
+        <br>
+        
+        Enter VWAP of stocks <input type="text" name="VWAP">
+        <br>
+        <br>
+
+        Enter High price of stocks <input type="text" name="High">
+        <br>
+        <br>
+
+        Enter Low price of stocks <input type="text" name="Low">
+        <br>
+        <br>
+
+        Enter Open price of stocks <input type="text" name="Open">
+        <br>
+        <br>
+
+        Enter Prev Close of stocks <input type="text" name="Prev Close">
+        <br>
+        <br>
+
+        Enter a year of stocks <input type="text" name="year">
+        <br>
+        <br>
+
+        Enter Turnover of the company <input type="text" name="Turnover">
+        <br>
+        <br>
+
+        <input type="submit" value="predict price">
+
+    </form>
+</body>
+</html>
